@@ -1,0 +1,83 @@
+@import "../../global.scss";
+
+
+.navbar{
+        // background-color: red;
+        font-weight: 700;
+        color: $stylecolor;
+        padding-right: 20px;
+        // overflow: hidden;
+
+
+
+        
+        // background-color: red;
+        .links{
+
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                letter-spacing: 0;
+                line-height: 1.5rem;
+                font-size: 1rem;
+                padding: .2em;
+                // background-color: red;
+
+                    @include respond(mobile){
+                                    padding-left: 20px;
+                                    flex-direction: row;
+                                    text-align: right;
+                                    }
+
+                a{
+                    text-decoration: none !important;
+                    color: $stylecolor;
+                    font-weight: 700 !important;
+
+                    @include respond(mobile){
+                    padding-left: 5px;
+                    padding-right: 5px;
+
+                    }
+                }
+
+                i{
+                     text-decoration: none !important;
+                     color: $stylecolor;
+
+                }
+
+            }
+
+        .icons{
+                padding-top: 42px;
+                width: 70px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 8px;
+
+                @include respond(mobile){
+                    width: 70px;
+                    padding-left: 120px;
+                    padding-top: 10px;
+                    justify-content: space-around;
+                    align-items: center;
+                   
+                    // height: 100%;
+
+                }
+            
+            a:link{
+                text-decoration: none !important;
+                color: $stylecolor;
+                
+                
+            }
+
+            i{
+                font-size: 1.2em;
+                color: $stylecolor;
+            }
+        }
+}

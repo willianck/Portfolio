@@ -1,0 +1,39 @@
+@import "../global.scss";
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 120px;
+    padding-top: 50px;
+    color: $fontColor;
+    // background-color: bisque;
+
+    //  width: 100%;
+    //  min-height: 70px;
+    //  position: absolute;
+    //  bottom: 0;
+     
+    //  min-height: 200px;
+    //  margin-top: 2rem;
+    //  position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // width: 100%;
+    // min-height: 70px;
+    // color: $fontColor;
+    // background-color: bisque !important;
+   
+  
+
+    .container{
+        align-items: center;
+
+        p{
+            font-size: 1rem;
+        }
+    }
+}

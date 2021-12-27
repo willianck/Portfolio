@@ -1,0 +1,144 @@
+@import "../global.scss";
+
+.intro{
+    display: flex;
+    min-height: 100vh;
+    padding-top: 30px;
+  
+    
+    // margin-bottom: 50px;
+    width: 100%;
+    color: $fontColor;
+  
+    // overflow: hidden;
+
+    // min-width: 100%;
+    // background-color: aqua;
+
+
+    @include respond(mobile){
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   
+
+
+    .intro-speech{
+        flex: 0.5;
+        display: flex;
+        justify-content: center;
+
+        // @include mobile{
+        //     flex:none;
+        //     width:100%;
+        //     align-items: center;
+            
+        // }
+
+        .wrapper{
+            padding-right: 50px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            h1{
+                font-size: 5vw;
+                margin: 10px 0;
+                color: $fontColor;
+                font-weight: 500;
+
+                @include respond(mobile){
+                    font-size: 10vw;
+                    align-items: center;
+                }
+
+                span{
+                    color: $stylecolor;
+                }
+            }
+
+
+            h2{
+                font-size: 3vw;
+                color: #fff;
+                font-weight: 500;
+
+                @include respond(mobile){
+                    font-size: 5vw;
+                    align-items: center;
+                }
+
+                .ityped-cursor{
+                    animation: blink 0.7s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+
+                span{
+                    font-size: inherit;
+                    color: rgb(92, 207, 230);
+                    // color: #4682B4; 
+                    // color:darkcyan;
+                }
+            }
+
+        }
+
+    }
+
+    .intro-logo{
+        flex: 0.5;
+        // background-color:black;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        .logo-container{
+            // width: 700px;
+            width: auto;
+            height: 700px;
+            // height: 700px;
+            // background-color:white;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            overflow: hidden;
+
+            img{
+                max-width: 95%;
+                display: block;
+                height: 90%;
+                animation: floating 2s ease infinite;
+                animation-name: floating;
+                animation-iteration-count: 5s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+                margin-left: 30px;
+                margin-top: 5px;
+                
+
+                @keyframes floating {
+                    from {transform: translate(0,0px);}
+                    65% {transform: translate(0,20px);}
+                    to {transform: translate(0,0px);}
+                
+            }
+
+           
+            }
+        }
+
+        
+
+    }
+
+}

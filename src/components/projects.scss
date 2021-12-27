@@ -1,0 +1,202 @@
+@import "../global.scss";
+
+
+.projects{
+    max-width: 1200px;
+    color: $fontColor;
+    margin:0px auto;
+    
+    
+    
+    // display: flex;
+    // flex-direction: column;
+    height: auto;
+    // justify-content: center;
+    margin-bottom: 100px;
+   
+    
+    h1{
+        margin-left: 10px;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 40px;
+        i{
+            color: $stylecolor;
+        }
+
+    }
+
+   
+
+    .container{
+      
+        height: 100%;
+                    margin-top: 50px;
+
+                    padding-top:50px;
+                    padding-bottom: 100px;
+                    // padding-right: 30px;
+                    // padding-left: 30px;
+        // transition: all 1s ease;
+                    ul{
+                        list-style: none;
+                    }
+
+
+              
+
+                    .items-grid {
+                        // overflow: hidden;
+                        // background-color: blue;
+                        padding-right: 30px;
+                        padding-left: 30px;
+                        padding-top: 30px;
+                        padding-bottom: 100px;
+                        display: grid;
+                        height: auto;
+                        // grid-template-columns: repeat(auto-fill,400px);
+                        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+                        grid-gap: 50px;
+
+                        @include respond(tablet){
+                        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+                        }
+                    
+                        
+                        
+                        
+                    
+
+
+                        .items{
+                                // overflow: hidden;
+                                background: #2D2D2D;
+                                // background: #2b2b2b;
+                                box-shadow: 0 1.6rem 2rem rgba(0,0,0,.2);
+                                // box-shadow: 0 1.6rem 3.6rem rgba(0,0,0,.2);
+                                // background-color: #112240;
+                                // cursor: pointer;
+                                border-radius: 0.8rem;
+                                display: flex;
+                                flex-direction: column;
+                                height: 100%;
+                                padding: 1rem 1.75rem !important;
+
+                                @include respond(mobile){
+                                    transitionDelay: 100ms;
+                                    // @media(hover: none){
+                                    //     &:hover{
+                                    //              transform: none;
+                                    //              background-color: $backgroundcolor;
+                                    //              transition-duration: 0s;
+
+                                    //     }
+                                    // }
+
+
+                                }
+                                // margin-bottom: 2.4rem;
+                                // margin-top: 2.4rem;
+                                // margin: 2rem 1rem;
+                                
+                                
+                                // justify-content: space-between;
+                                transition: all 0.8s ease;
+                                position: relative;
+                                // margin-left: 50px;
+                                // margin-right: 50px;
+                                // margin-bottom: 50px;
+                                @media (hover: hover) and (pointer: fine){
+                                        &:hover {
+                                                transform: scale(1.1);
+                                                transition-duration: 0.75s;
+                                                background-color: #112240;
+                                        }
+                                      
+                                }
+
+
+                                 .top{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        border-bottom: none !important;
+                                        background-color: rgba(0,0,0,.03);
+                                        padding: 1.25em 0 !important;
+                                        
+                                       
+
+                                        .folder-icon{
+                            
+                                               color: $stylecolor;
+                                               font-size: 2rem;
+                                               padding-left: 15px;
+                                        }
+
+                                        .year{
+                                            font-size: 1.2rem;
+                                        }
+
+                                        .link-icon{
+
+                                                padding-right: 20px;
+
+                                            a{
+                                                text-decoration: none;
+                                            }
+
+                                            i{
+                                                color: $fontColor;
+                                                font-size: 2rem;
+
+                                            }
+
+
+                                        }
+
+                                    }
+
+                                    .item-title{
+                                                    font-size: 1.4rem;
+                                                    font-weight: 700;
+                                                    margin-bottom: 1rem;
+
+                                    }
+
+                                    .item-desc{
+                                                    font-size: 1.1rem;
+                                                    padding-bottom: 40px;
+                                                    line-height: 1.5;
+                                                    // background-color: red;
+
+                                    }
+
+                                    .item-tech{
+                                                    font-size: 1rem;
+                                                    display: grid;
+                                                    gap: 20px;
+                                                    grid-template-columns: repeat(auto-fill,minmax(70px,1fr));
+
+                                                    > *{
+                                                        width: auto;
+                                                        margin: 0em auto 0em auto;
+                                                        padding: 0.3em 0.3em 0.3em 0.3em;
+
+                                                        outline: 2px solid $stylecolor;
+                                                        display: inline-block;
+                                                        white-space: nowrap;
+                                                        
+                                                        // outline-offset: 2px;
+                                                        border-radius: 7px;
+                                                        // outline-offset: 1px;
+                                                        // padding-left: 5px;
+                                                        // padding-right: 5px;
+                                                    }
+
+                                    }
+                      
+                         }
+                    }
+                }
+    }
+

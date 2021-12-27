@@ -1,0 +1,36 @@
+// $mainColor: #FFFFFF;
+$fontColor: #E6E6E6;
+// CBC9C8
+// looks like white and snow E4E2E2
+// for text white --- E6E6E6
+$stylecolor:  rgb(92, 207, 230);;
+// #39A2DB
+// rgb(92, 207, 230);
+$backgroundcolor: #262626;
+
+
+
+@mixin respond ($breakpoint) {
+
+    // $breakpoint is simply a variable that can have several values
+
+    @if $breakpoint==tablet {
+
+        // here `laptop` is the value of $breakpoint
+        // when call laptop, we mean the following piece of code        
+
+    @media only screen and (max-width: 1080px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==mobile {
+    @media only screen and (max-width: 760px) {
+      @content;
+    }
+  }
+}
+
+
+
+

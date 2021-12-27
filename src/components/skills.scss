@@ -1,0 +1,179 @@
+@import "../global.scss";
+
+
+
+
+
+.skills{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    color: $fontColor;
+    margin-bottom: 100px;
+   
+
+   
+
+
+    .header{
+
+        h1{
+            font-size: 40px;
+            padding-top: 60px;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+
+          
+    
+
+        }
+        text-align: center;
+        i{
+            color: $stylecolor;
+            padding-right: 10px;
+         }
+
+         p{
+             font-size: 1.2rem;
+             padding-bottom: 10px;
+             margin-left: 45px;
+
+             @include respond(mobile){
+                 display: none;
+             }
+             
+         }
+
+         span{
+            display: inline-block;
+            width: 2ch;
+            @include respond(mobile){
+                display: none;
+            }
+            
+
+         }
+    }
+
+    .container{
+                // background-color: blue;
+                width: 100%;
+                // padding-top: 15px;
+                padding-right: 15px;
+                // padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                // margin-top: 20px;
+                height: 100%;
+                // background-color: #8490ff;
+                // position: relative;
+                
+                // justify-content: center;
+                // align-items: center;
+                // display: flex;
+
+                .skills-section{
+                                display: flex;
+                                justify-content: space-around;
+                                flex-flow: row wrap;
+                                margin-top: 8%;
+
+                                // @include mobile{
+                                    
+                                //         flex-direction: column;
+                                //         align-items: center;
+                                       
+        
+                                // }
+
+
+                              
+
+                                
+                                // position: absolute;
+                                
+                                // margin-right: -15px;
+                                // margin-left: -15px;
+                               
+
+                                .skills-column{
+                                                // background-color: red;
+                                                // position: relative;
+                                                width: 80%;
+                                                max-width: 320px;
+                                                min-height: 1px;
+                                                padding-right: 15px;
+                                                padding-left: 15px;
+                                                margin-top: 10px;
+                                                margin-bottom: 10px;
+                                                // margin-right: 25px;
+                                                // // margin-left: 25px;
+                                                // background-color: tomato;
+                                                max-height: 300px;
+                                                @include respond(mobile){
+                                                    transitionDelay: 100ms;
+                                                    padding-left: 0;
+                                                }
+
+
+                                                h4{
+                                                    font-size: 18px;
+                                                    text-align: center;
+                                                    
+                                                }
+
+                                                .single-skill{
+
+                                                                padding-top: 10px;
+                                                                padding-bottom: 10px;
+                                                                 p{
+                                                                    font-size: 1rem;
+                                                                    padding-bottom: 12px;
+                                                                    padding-top: 12px;
+                                                                }
+
+                                                                .sb_progress{
+                                                                    box-sizing: border-box;
+                                                                    height: 14px !important;
+                                                                    border-radius: 12px;
+                                                                    border: 3px solid #eee;
+                                                                    position: relative;
+                                                                    width: 100%;
+                                                                    background-color: rgb(221, 221, 221);
+
+                                                                    .sb_bar{
+                                                                            position: absolute;                                                                  
+                                                                            background-color: rgb(51, 122, 183);
+                                                                            height: 8px !important;
+                                                                            border-radius: 12px;
+                                                                            background: -webkit-linear-gradient(
+                                                                                0deg, $stylecolor 0%, rgb(57, 162, 219) 100%);
+                                                                            box-sizing: border-box;
+
+                                                                            .sb_label{
+
+                                                                                        padding-left: 5px;
+                                                                                        line-height: 30px;
+                                                                                        color: rgb(255, 255, 255);
+                                                                                        box-sizing: border-box;
+
+                                                                            }
+                                                                            
+
+                                                                    }
+
+                                                                }
+
+
+                                                }
+
+                                }
+                            
+                                
+                }
+        
+    }
+
+}
