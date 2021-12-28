@@ -78,13 +78,7 @@
     }
    
 
-    .footer {
-        @include respond(mobile){
-
-          display: none;
-
-      }
-  }
+    
 
 
     // removes all transitions , transforms , animations for users who do not like motion-related content

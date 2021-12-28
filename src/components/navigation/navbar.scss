@@ -24,9 +24,10 @@
                 // background-color: red;
 
                     @include respond(mobile){
-                                    padding-left: 20px;
-                                    flex-direction: row;
-                                    text-align: right;
+                                    // padding-left: 20px;
+                                    // flex-direction: row;
+                                    // text-align: right;
+                                    display: none;
                                     }
 
                 a{
@@ -59,8 +60,9 @@
 
                 @include respond(mobile){
                     width: 70px;
-                    padding-left: 120px;
+                    padding-left: 40px;
                     padding-top: 10px;
+                    padding-bottom: 20px;
                     justify-content: space-around;
                     align-items: center;
                    

@@ -85,9 +85,11 @@ export default function Projects(){
                         <ul className='item-tech'>
                        
                         {d.skills.map((s)=> 
+                        <React.Fragment key={s}>
                         <FadeInSection>
-                            <li key={s}>{s}</li> 
+                            <li>{s}</li> 
                          </FadeInSection>
+                        </React.Fragment>
                         
                         )}
                        
