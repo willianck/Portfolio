@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/willianck.com/static/css/main.8d1f9178.chunk.css",
-    "main.js": "/willianck.com/static/js/main.eb3976a3.chunk.js",
-    "main.js.map": "/willianck.com/static/js/main.eb3976a3.chunk.js.map",
-    "runtime-main.js": "/willianck.com/static/js/runtime-main.7bc22273.js",
-    "runtime-main.js.map": "/willianck.com/static/js/runtime-main.7bc22273.js.map",
-    "static/js/2.719f7610.chunk.js": "/willianck.com/static/js/2.719f7610.chunk.js",
-    "static/js/2.719f7610.chunk.js.map": "/willianck.com/static/js/2.719f7610.chunk.js.map",
-    "index.html": "/willianck.com/index.html",
-    "static/css/main.8d1f9178.chunk.css.map": "/willianck.com/static/css/main.8d1f9178.chunk.css.map",
-    "static/js/2.719f7610.chunk.js.LICENSE.txt": "/willianck.com/static/js/2.719f7610.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.8d1f9178.chunk.css",
+    "main.js": "/static/js/main.eb3976a3.chunk.js",
+    "main.js.map": "/static/js/main.eb3976a3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26096b02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
+    "static/js/2.719f7610.chunk.js": "/static/js/2.719f7610.chunk.js",
+    "static/js/2.719f7610.chunk.js.map": "/static/js/2.719f7610.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8d1f9178.chunk.css.map": "/static/css/main.8d1f9178.chunk.css.map",
+    "static/js/2.719f7610.chunk.js.LICENSE.txt": "/static/js/2.719f7610.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bc22273.js",
+    "static/js/runtime-main.26096b02.js",
     "static/js/2.719f7610.chunk.js",
     "static/css/main.8d1f9178.chunk.css",
     "static/js/main.eb3976a3.chunk.js"
