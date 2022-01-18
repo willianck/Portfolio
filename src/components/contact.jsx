@@ -11,7 +11,7 @@ export default function Contact(){
                 </FadeInSection>
                 <FadeInSection>
                 <div className='contactme'>
-                    <p>I am currently looking for new opportunities and challenges to solve. My inbox is always open whether you have a question or just want to say hi.I will try my best to get back to you! </p>
+                    <p>I am currently looking for new opportunities and challenges to solve. My inbox is always open whether you have a question or just want to say hi. I will try my best to get back to you! </p>
                 </div>
                 </FadeInSection>
                 <FadeInSection>

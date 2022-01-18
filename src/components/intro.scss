@@ -29,8 +29,10 @@
         justify-content: center;
 
         @include respond(mobile){
-            align-items: flex-start;
-            justify-content: flex-start;
+            // align-items: flex-start;
+            // justify-content: flex-start;
+            justify-content: center;
+            align-items: center;
         }
 
 

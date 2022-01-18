@@ -35,7 +35,7 @@ export default function Intro(){
             <div className ='intro-logo'>
                 <FadeInSection>
                 <div className='logo-container'>
-                    <img id ='logo' src = "/assets/ipad.png" alt=""/>
+                    <img id ='logo' src = "/assets/float.png" alt=""/>
                 </div>
                 </FadeInSection>
 

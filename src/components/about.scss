@@ -88,13 +88,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 70px;
+        margin-left: 100px;
+        padding-left: 20px;
         padding-right: 40px;
+        // background-color: red;
 
         @include respond(mobile){
             padding-left: 40px;
             padding-top: 40px;
             padding-bottom: 74px;
+            margin-left: 0px;
+            
           
         }
 
