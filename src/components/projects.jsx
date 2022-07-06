@@ -5,27 +5,29 @@ import React from "react";
 export default function Projects(){
 // This data contains a list of all projects data added to the Projects section on the website 
     const data = [
-    {
-        id: 1,
-        img: "/assets/wc.png",
-        year: "May 2021",
-        title: "Summarizing Stance Dependent Claims on Twitter",
-        desc: " In this paper, I look at extracting the claims that summarise the opinions of tweets posted by users about a specific target or topic with a supervised approach.",
-        git :"https://github.com/willianck/Thesis",
-        skills: ["Python","Sklearn","FlairNLP","Pytorch","Spacy","NLTK","Gensim","Pandas"],
-        style: {
-            "transitionDelay": "300ms"
-        }
-    },
+        {
+            id: 1,
+            year: "May 2022",
+            title: "Multilingual Document Similarity",
+            desc: "We developed a model to find how similara pair of documents in different languages convey the same news story",
+            git:"https://github.com/willianck/Multilingual-Document-Similarity",
+            skills: ["Transformers", "pytorch", "Sklearn", "Pandas" , "Matplotlib" , "Numpy" ],
+            style : {
+                    "transitionDelay": "200ms"
+            }
+    
+    
+        },
+
 
     {
         id: 2,
         img: "/assets/farm.png",
         year: "May 2021",
         title:"Predicting Food Insecurity in Low-income countries",
-        desc: "In collaboration with the Alan Turing Institute of London we investigate  the main factors for food insecurity over 35,000 households located across 33 different countries and create a model able to predict this outcome from the survey data.",
+        desc: "In collaboration with the Alan Turing Institute of London we investigate the main factors for food insecurity over 35,000 households and develop a model to predict this outcome.",
         git:'https://github.com/willianck/ADS',
-        skills: ["Python","Sklearn","Plotly","Pandas","Matplotlib","Seaborn"],
+        skills: ["Numpy","Sklearn","Plotly","Pandas","Matplotlib","Seaborn"],
         style: {
             "transitionDelay": "500ms"
         }
@@ -35,16 +37,18 @@ export default function Projects(){
 
     {
         id: 3,
-        img: "/assets/sceemspace.jpg",
-        year:"May 2020",
-        title: "SCEEM SPACE",
-        desc:" Web application for managing offices across the School of Engineering buildings at the University of Bristol.",
-        git:"https://github.com/willianck/SCEEMSPACE",
-        skills: ["Java Spring","MySQL","HTML","CSS","JavaScript"],
+        img: "/assets/wc.png",
+        year: "May 2021",
+        title: "Summarizing Stance Dependent Claims on Twitter",
+        desc: " In this paper, I look at extracting the claims that summarise the opinions of tweets posted by users about a specific target or topic with a supervised approach.",
+        git :"https://github.com/willianck/Thesis",
+        skills: ["Python","Sklearn","FlairNLP","Pytorch","Spacy","NLTK","Gensim","Pandas"],
         style: {
-            "transitionDelay": "100ms"
+            "transitionDelay": "300ms"
         }
     }
+
+   
 ]
 
 

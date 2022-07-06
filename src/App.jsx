@@ -22,7 +22,7 @@ function App() {
           <div className = "sections">
               <Intro/>
               <About/>
-              <Skills/>
+              {/* <Skills/> */}
               <Projects/>
               <Contact/>
               <Footer/>

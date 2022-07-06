@@ -20,9 +20,9 @@ export default function About(){
                 <div className ='biography'>
                       <p>I am a grad student at <b>UCLA</b> studying a <b>Master’s in Engineering</b> with <b>Data Science</b>.</p>
 
-                      <p>I am fuelled by my passion for analysing complex data  and create effective models driven by machine learning and data science particularly in the social science domain. Working with data concerning the development, structure, and functioning of human society is something I find thrilling.</p>
+                      <p>I am fuelled by my passion for analysing complex data  and create effective models driven by machine learning and data science particularly in the social science domain.</p>
 
-                      <p>My fields of interest include Natural Language Processing , Machine Learning, Deep Learning and Software Development. I like to spend my free time in social gatherings, experimenting in the kitchen  and playing the piano.</p>
+                      <p>My fields of interest include Data Science , Natural Language Processing , Machine Learning, Deep Learning and Software Development. I like to spend my free time in social gatherings, experimenting in the kitchen  and playing the piano.</p>
                </div>
                </FadeInSection>
               
