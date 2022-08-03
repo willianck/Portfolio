@@ -14,7 +14,8 @@ export default function Projects(){
             skills: ["Transformers", "pytorch", "Sklearn", "Pandas" , "Matplotlib" , "Numpy" ],
             style : {
                     "transitionDelay": "200ms"
-            }
+            },
+            medium_link: "https://medium.com/p/6a0690364c39"
     
     
         },
@@ -30,7 +31,8 @@ export default function Projects(){
         skills: ["Numpy","Sklearn","Plotly","Pandas","Matplotlib","Seaborn"],
         style: {
             "transitionDelay": "500ms"
-        }
+        },
+        medium_link: "https://medium.com/p/ce8ff39b732c"
         
 
     },
@@ -45,7 +47,8 @@ export default function Projects(){
         skills: ["Python","Sklearn","FlairNLP","Pytorch","Spacy","NLTK","Gensim","Pandas"],
         style: {
             "transitionDelay": "300ms"
-        }
+        },
+        medium_link: ""
     }
 
    
@@ -74,7 +77,10 @@ export default function Projects(){
                                 <i className="far fa-folder"></i>
                             </div>
                             <div className='link-icon'>
+                           
+                                <a className= 'medium' href = {d.medium_link}><i class="fa-brands fa-medium"></i></a>
                                 <a href={d.git}><i className="fab fa-github"></i></a>
+                              
                             </div>
                            
                          
